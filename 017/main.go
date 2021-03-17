@@ -1,7 +1,7 @@
 package main
 
 import (
-	"curso/17-AplicacoesComLinhaDeComando/app"
+	"curso/017/app"
 	"log"
 	"os"
 )

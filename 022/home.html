@@ -9,5 +9,19 @@
 <body>
     <h2>Página Principal</h2>
     <h4>Seja bem vindo!</h4>
+
+    <button id="botao">Clique em Mim!</button>
+
+    <script>
+        let botao = gid('botao')
+
+        botao.onclick = function() {
+            alert("Botão clicado com sucesso!")
+        }
+
+        function gid(id) {
+            return document.getElementById(id)
+        }
+    </script>
 </body>
 </html>
